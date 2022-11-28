@@ -1,0 +1,11 @@
+﻿Program.cs was created as a proof of concept. 
+
+To extend this to a multiple player game we would need to convert this to a webapi, with implemented security.
+
+On that API we could have:
+- An endpoint to matches 2 players to play against each other 
+(server generates a number and players take turns guessing until someone wins)
+- signalR comunication with both clients to notify each player of the other player choices
+- minimum / maximum stored in database to customize default dificulty
+- each game would have a database entry to store game evolution, and store results in the long run
+- There could be top 10 lists for best guessers, most active players, etc.
